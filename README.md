@@ -1,9 +1,13 @@
-# _Weather App_
+# :cactus: :herb: _IGreenHouse_ :cactus: :herb:
 
+### 4 April 2023
+
+
+####  _Web application for tending a virtual garden_ 
 
 #### By _Mitchell Gantz_
 
-#### _This project demonstrates basic API setup_
+ 
 
 ## Technologies Used
 
@@ -13,32 +17,22 @@
 - _Webpack_
 - _eslint_
 - _babel_
-- _Open Weather API_
+
 
 
 ## Description
+* _This is an exercise for Epicodus to practice functional programming. The program makes use of storing state within a function and composes function factories for generating reusble code. Specifically, this program allows you to add soil, water, and light to four different plants. Each plant also comes with special propery of their own, which the user can manipulate through forms._
 
-_Practice making API calls in JavaScript. Start by following along with the pre-work and then build out a basic application that uses an API call. Your projects should include full development environments, a .env file for sensitive API variables, and complete README instructions, including instructions for setting up an API key as needed. Make sure to practice parsing JSON and API call error handling, too._
 
-_Lesson prompt:_ https://www.learnhowtoprogram.com/intermediate-javascript/asynchrony-and-apis/openweather-api-giphy-api
+
 
 ## Setup/Installation Requirements
 
 - _Clone or download to your local repository_
-- _Update titles in package.json and webpack.config.js to reflect new project title_
-- _Update README.md with correct project information_
-- _Ensure proper files are disallowed in .gitignore_
-- _git init a new local directory and create a new repository in github_
-- _run npm install_
-- _npm run start to build and launch server_
-- _proceed to update files to reflect new project_
-
-### Setup/Installation for using Open Weather API
-- _Sign up for an account, and sign in._
-- _Once you are signed in, click on the API keys tab._
-- _Locate the API key called Default. You'll use this key in every request you make to the OpenWeather API._
-- _Add .env file to .gitignore, commit and push (before touching .env)._
-- _Touch .env and add API _ KEY=[YOUR API KEY], replacing brackets with your individual key and removing any spaces._
+* Run `cd IGreenHouse` to navigate into new project directory.
+* Open the cloned repo in a text editor of your choice.
+* Run `npm install` to download all dependencies.
+* Run `npm run start` to start a live server and view projec in the browser.
 
 ## Known Bugs
 
@@ -49,3 +43,9 @@ _Lesson prompt:_ https://www.learnhowtoprogram.com/intermediate-javascript/async
 _MIT_
 
 Copyright (c) _2023_  _Mitchell Gantz_
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
