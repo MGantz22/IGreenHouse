@@ -1,17 +1,41 @@
-<html lang="en-US">
-<head>
-  <title>Weather</title>
-</head>
-<body>
-  <div class="container">
-    <h1>Get Weather Conditions From Anywhere!</h1>
-    <p>To get the current weather conditions for a location, please enter the city name or the city and state separated by a comma. Here are three examples:</p>
-    <form>
-      <label for="location">Enter a location:</label>
-      <input id="location" type="text" name="location">
-      <button type="submit" class="btn-success" id="weatherLocation">Get Current Temperature and Humidity</button>
+<!DOCTYPE html>
+<html lang= "en-US">
+  <head>
+    <script src="./js/plant.js"></script>
+    <title>Grow Your Plant</title>
+  </head>
+  <body>
+    <h1>Add a new plant</h1>
+    <form id="create-plant">
+      <label for="plant-name">Name:</label>
+      <input type="text" id="plant-name">
+      <button type="submit">Add New plant</button>
     </form>
-    <p id="showResponse"></p>
-  </div>
-</body>
+    
+    <br>
+    <div>
+      <span id="name"></span>
+      <span id="age-now"></span>
+    </div>
+
+<div id="grow-plant">
+  <h2>Grow your Plant:</h2>
+  <button id="add-feed" value="feed">Add food</button><span id="feed"></span>
+  <button id="add-superfood" value="superFood">Add superfood</button>
+  <button id="add-water" value="water">Add water</button>
+  <button id="add-megaWater" value="megaWater">Add mega water</button>
+  
+  <button id="show-state">Final Stats</button>
+
+
+
+</div>
+
+    <h1>Your Plant's Values</h1>
+    <h3><div id="food-value">0</div></h3>
+    <h3><div id="superfood-value">0</div></h3>
+    <h3><div id="water-value">0</div></h3>
+    <h3><div id="megaWater-value">0</div></h3>
+    
+  </body>
 </html>
