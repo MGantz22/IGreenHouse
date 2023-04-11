@@ -20,7 +20,7 @@ module.exports = {
       verbose: true
     }),
     new HtmlWebpackPlugin({
-      title: 'Weather App',
+      title: 'IGreenHouse',
       template: './src/index.html',
       inject: 'body'
     }),
